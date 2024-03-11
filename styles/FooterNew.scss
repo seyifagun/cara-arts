@@ -4,6 +4,9 @@
 .footerBody {
     background-color: rgba(0, 0, 0, 0.8);
     padding: 15px 80px 30px;
+    @include md{
+        padding: 15px 40px 30px;
+    }
     &__container{
         margin: 2rem auto;
         &_flex{

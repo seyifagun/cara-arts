@@ -49,10 +49,14 @@ const Navbar = () => {
           </button>
 
           {dropdownMenu && (
+            <>
             <div className='navbar_right_accountmenu'>
               <Link href="/login">Log In</Link>
               <Link href="/register">Sign Up</Link>
+              <Link href="/about-us">About Us</Link>
+              <Link href="/contact-us">Contact Us</Link>
             </div>
+            </>
           )}
         </div>
         

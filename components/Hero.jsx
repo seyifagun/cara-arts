@@ -125,7 +125,7 @@ export default function Hero() {
 				<div className={styles.heroSection__contents}>
 					<div className={styles.left}>
 						<div className={styles.textArea} data-aos={onMobile ? "fade-up" : "fade-left"}>
-							<h2>{onMobile && <br />}African Art{!onMobile && <br />}<span>made for you</span></h2>
+							<h2>{onMobile && <br />}African Art{' '}{!onMobile && <br />}<span>made for you</span></h2>
 							<p>Creating a desired artworks from pure imaginations to spread the value, culture, spirituality
                                 of the African People
                             </p>

@@ -48,7 +48,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="footerBody__container_flex_col3">
-                        <iframe height={300} frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=14,%20copeland,%20browsover,%20rughy,%20united%20kingdom+(Cara%20Art)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                        <iframe height={300} frameBorder="0" scrolling="no" marginHeight={0} marginWidth={0} src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=14,%20copeland,%20browsover,%20rughy,%20united%20kingdom+(Cara%20Art)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
                         </iframe>
                     </div>
                 </div>
