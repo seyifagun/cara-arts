@@ -1,0 +1,196 @@
+@import "./variablez";
+@import "./reuseables";
+
+
+.profileBody {
+    max-width: 500px;
+    margin: 1rem auto;
+    &__form {
+        flex: 2;
+        // gap: 20px;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.12);
+        &_inputs {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem 3rem;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            & .formBody {
+                display: flex;
+                justify-content: center;
+                margin: 0 auto;
+                border-bottom: 2px solid black;
+                width: 100%;
+                padding-bottom: 10px;
+                & button {
+                    width: fit-content;
+                    padding: 0 1rem;
+                    height: 40px;
+                    background: #dfdfdf;
+                    border-radius: 5px;
+                    line-height: 40px;
+                    border: none;
+                    gap: 5px;
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    cursor: pointer;
+                    font-family: 'Inter', sans-serif;
+                    &:hover {
+                        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.12);
+                    }
+                    &  p{
+                      font-size: 13px;
+                    }
+                }
+            }      
+            & form {
+                & .formBody__form_input {
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 25px;
+                    padding-bottom: 1.5rem;
+
+                    & .inputLabel {
+                        flex-basis : 50%;
+                        & label {
+                            font-size: 12px;
+                            color: grey;
+                        }
+                        & input {
+                            background: #F4F4F4;
+                            border-radius: 10px;
+                            height: 50px;
+                            font-family: 'Inter', sans-serif;
+                            outline: none;
+                            border: none;
+                            width : 100%;
+                            padding : 0 1rem;
+                        }
+                    }
+                }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+                & .formBody__form_ {
+                    display: flex;
+                    justify-content: space-between;
+                    padding-bottom: 1.5rem;
+                    flex-direction : column;
+
+                    & label {
+                        font-size: 12px;
+                        color: grey;
+                    }
+                    & input{
+                        background: #F4F4F4;
+                        border-radius: 10px;
+                        height: 50px;
+                        outline: none;
+                        border: none;
+                        width : 100%;
+                        font-family: 'Inter', sans-serif;
+                        padding : 0 1rem;
+                    }
+                    & textarea {
+                        background: #F4F4F4;
+                        border-radius: 10px;
+                        height: 150px;
+                        outline: none;
+                        border: none;
+                        width : 100%;
+                        font-family: 'Inter', sans-serif;
+                        padding : 0 1rem;
+                    }
+                }  
+                & .formBody__form_btn {
+                    & button {
+                        width : 100%;
+                        outline: none;
+                        border: none;
+                        padding: 1rem;
+                        cursor: pointer;
+                        background  : #333333;
+                        border-radius: 7px;
+                        font-family: 'Inter', sans-serif;
+                        color: #fff;
+                        &:hover {
+                            background: #333333;  
+                            box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.8)
+                        }
+                    }
+                }
+            }
+        }
+    }
+    & .bodyII {
+        flex: 1;
+        & .bodyII__cards {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            &_contributions {
+                background: white;
+                border-radius: 12px;
+                padding: 2rem;
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+                & .coursesbg {
+                    position: relative;
+                    height: 110px;
+                    & img {
+                        object-fit: cover;
+                        object-position: center;
+                        border-radius: 10px;
+                    }
+                    &__body {
+                        color: #fff;
+                        position: absolute;
+                        display: flex;
+                        gap: 10px;
+                        flex-direction: column;
+                        bottom: 10px;
+                        left: 10px;
+                        z-index: 2;
+                        & .firstContent {
+                            font-size: 12px;
+                        }
+                    }
+                }
+                & .date{
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                }
+                & .contents {
+                    margin: auto;
+                    width: 70%;
+                    text-align: center;
+                    color: grey;
+                }
+                & .registerBtn {
+                    margin: 0 auto;
+                    padding: 0.5rem 1rem 1rem 1rem;
+                    & button {
+                        width: fit-content;
+                        padding: 0 1rem;
+                        height: 40px;
+                        background: $primary-color;
+                        border-radius: 5px;
+                        line-height: 40px;
+                        border: none;
+                        font-family: 'Inter', sans-serif;
+                        color: white;
+                        cursor: pointer;
+                        font-family: 'Inter', sans-serif;
+                        &:hover {
+                            box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.12);
+                        }
+                        &  p{
+                          font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

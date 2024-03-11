@@ -1,0 +1,24 @@
+{
+  "name": "cara_art",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.12",
+    "@mui/material": "^5.15.12",
+    "aos": "^2.3.4",
+    "next": "14.1.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.0.1",
+    "react-scroll": "^1.9.0",
+    "sass": "^1.71.1"
+  }
+}
